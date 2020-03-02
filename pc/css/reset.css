@@ -1,0 +1,31 @@
+@charset "utf-8";
+
+body, h1, h2, h3, h4, h5, h6, ol, ul, p, dt, dd {
+	margin: 0;
+	padding: 0;
+}
+body { /**/
+	font-family: 'Roboto', sans-serif;
+	/* font-size: 1em;  */
+}
+ol, ul {
+	list-style: none;
+}
+img {
+	vertical-align: top;
+	border: 0;
+}
+a {
+	text-decoration: none;
+	color: #000;
+}
+.clearfix::before, .clearfix::after {
+	content: "";
+	display: block;
+}
+.clearfix::after {
+	clear: both;
+}
+* {
+	box-sizing: border-box;
+}
